@@ -1,0 +1,18 @@
+nav {
+    clear: both;
+    width: 80%; /* 1000px / 1250px */
+    font-size: 0.8125em; /* 13 / 16 */
+    max-width: 92.3em; /* 1200px / 13 */
+    margin: 0 auto;
+    position: relative;
+    color: #000;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    
+}

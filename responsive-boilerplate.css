@@ -1,0 +1,65 @@
+/* For devices with narrow screens, phones, tablets, etc. */
+/* support these sizes: 320,480, 600, 768, 1024, 1200 Ethan Marcotte */
+/*  * 1. 1201px and above huge screens * */
+/*  * 2. 1025px to 1200px * */
+/*  * 3. 769px to 1024px  * */
+/*  * 4. 769px to 1024px  * */
+/*  * 5. 601px to 768px  * */
+/*  * 6. 600px and below  * */
+/*  * 7. 481px to 600px  * */
+/*  * 8. 480px wide and below * */
+/*  * 9. iPhone Portrait * */
+/*  * 10. iPhone Landscape * */
+
+/*  * 1. 1625px and above huge screens * */
+@media only screen and (min-width : 1625px)  {
+}
+
+
+/*  * 2. 1301px and above huge screens * */
+@media only screen and (min-width : 1301px)  {
+
+} /*  * END 2. 1301px and above huge screens * */
+
+
+/*  * 3. 1025px to 1300px * */
+@media only screen and (min-width : 1025px) and (max-width : 1300px) {
+
+} /*  * END 3. 1025px to 1300px * */
+
+
+/*  * 4. 769px to 1024px  * */
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+
+} /*  * END 4. 769px to 1024px * */
+
+
+/*  * 5. 601px to 768px  * */
+
+@media only screen and (min-width : 601px) and (max-width : 768px) {
+
+} /*  * END 5. 601px to 985px  * */
+
+
+/*  * 6. 600px and below-common things for 480px, 600px, and below .. IE 9 ignored this if it had 'only screen' in the query* */
+@media (max-width : 600px) {
+
+} /*  * END 6. 600px and below  * */
+
+
+/*  * 7. 481px to 600px  * */
+@media only screen and (min-width : 481px) and (max-width : 600px) {
+
+} /*  * END 7. 481px to 600px  * */
+
+
+/*  *  8. 480px wide and below many smart phones * */
+@media only screen and  (max-width : 480px) {
+
+} /*  * END 9. iPhone Portrait * */
+
+
+/*  * 10. iPhone Landscape. Since portrait has a max of 320 this effects the iPhone in landscape only * */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+
+} /*  * END 10. iPhone Landscape * */
