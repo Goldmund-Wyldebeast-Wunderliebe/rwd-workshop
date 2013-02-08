@@ -30,12 +30,19 @@ nav { color: #000; background-color: #222; }
 
     nav li {
         display: inline;
-        font-size: 1.25rem; /* 20 / 16 */
-        margin-right: 0.5rem;
+        margin-right: 2.5rem;
     }
+
 
     nav a {
         color: #FFF;
+        font-size: 1.25rem; /* 20 / 16 */
     }
 
     nav #pull { display: none; }
+
+/** Same height for video as images in group **/
+#example-video {
+    width: 64%;
+    margin: 0 18%;
+}
