@@ -40,6 +40,10 @@
 
     body.colors-on { background-color: #FFCCCC; }
 
+    /** Smaller margin on nav items **/
+    nav li { margin-right: 2rem; }
+
+
 } /*  * END 4. 769px to 1024px * */
 
 
@@ -53,6 +57,9 @@
     header { padding: 0; }
     header h1 { font-size: 4rem; }
     header h2 { font-size: 1.8rem; }
+
+    /** Smaller margin on nav items **/
+    nav li { margin-right: 1.5rem; }
 
     /** Half width for the images, with a bit of padding **/
     .media .span_1_of_6 { width:31.33%; padding: 1%;  margin: 0; } 
