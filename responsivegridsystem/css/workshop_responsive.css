@@ -15,6 +15,7 @@
 @media only screen and (min-width : 1625px)  {
 
     body.colors-on { background-color: #FFCCE6; }
+    
 }
 
 
@@ -22,7 +23,6 @@
 @media only screen and (min-width : 1301px)  {
 
     body.colors-on { background-color: #CCE6FF; }
-
 
 } /*  * END 2. 1301px and above huge screens * */
 
